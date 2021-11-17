@@ -1,0 +1,30 @@
+.foot{
+    background-color: rgb(44, 44, 54);
+    position:static;
+    bottom: 0;
+    height: auto;
+    min-height: 400px;
+    padding-top: 50px;
+}
+
+.hFoot{
+    margin: 20px;
+}
+
+.pading{
+    padding-top: 50px;
+}
+
+.iconLoc{
+    position:absolute;
+    right: 0;
+    margin-right: 35px;
+}
+
+.iconMarg{
+   margin-right: 10px; 
+}
+
+.buttonMarg{
+    margin:auto
+}
