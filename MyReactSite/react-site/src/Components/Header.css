@@ -3,8 +3,13 @@
     position:static;
     bottom: 0;
     height: auto;
-    min-height: 400px;
+    min-height: 370px;
     padding-top: 50px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .hFoot{
@@ -28,3 +33,13 @@
 .buttonMarg{
     margin:auto
 }
+
+.headButt{
+border-radius: 20px;
+}
+
+.carouselImg{
+    background-size: cover;
+    height: auto;
+}
+

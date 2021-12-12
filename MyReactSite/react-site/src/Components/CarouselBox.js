@@ -6,9 +6,9 @@ export default class CarouselBox extends Component {
     render() {
         return (
             <Carousel>
-          <Carousel.Item>
+          <Carousel.Item >
               <img
-                className="d-block w-100"
+                className="d-block w-100 carouselImg"
                 src={ pizza1 }
                 alt="p1"
                 height="550px"
@@ -17,10 +17,10 @@ export default class CarouselBox extends Component {
                   <h3>Pizza</h3>
                   <p>Пицца - традиционное итальянское блюдо в виде круглой дрожжевой лепёшки, выпекаемой с уложенной сверху начинкой из томатного соуса, сыра и часто других ингредиентов, таких как мясо, овощи, грибы и других продуктов.</p>
               </Carousel.Caption>
-          </Carousel.Item>
+          </Carousel.Item >
           <Carousel.Item>
               <img
-                className="d-block w-100"
+                className="d-block w-100 carouselImg"
                 src={ pizza2 }
                 alt="p2"
                 height="550px"

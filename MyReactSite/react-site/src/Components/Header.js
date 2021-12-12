@@ -6,7 +6,7 @@ import { Form, FormControl } from 'react-bootstrap';
 import logo from './free_pizza_logo-_fre.png';
 import './Header.css';
 import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
-import { Twitter, Instagram, Basket } from 'react-bootstrap-icons';
+import { Twitter, Instagram } from 'react-bootstrap-icons';
 
 import Home from '../Pages/Home';
 import Menu from '../Pages/Menu';
@@ -49,7 +49,7 @@ export default class header extends Component {
     <Instagram color="white" size={25} />
     </Nav.Link>
 
-    <Button variant='warning' href="/cart">Корзина</Button>
+    <Button variant='warning' className='headButt' href="/cart">Корзина</Button>
 
     </Nav>    
 
