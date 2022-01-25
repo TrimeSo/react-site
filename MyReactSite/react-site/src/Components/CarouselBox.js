@@ -5,13 +5,14 @@ import pizza2 from '../assets/pexels-edward-eyer-1049626.jpg'
 export default class CarouselBox extends Component {
     render() {
         return (
-            <Carousel>
+                     
+            <Carousel fade>
           <Carousel.Item >
               <img
-                className="d-block w-100 carouselImg"
+                className="d-block w-100 "
                 src={ pizza1 }
                 alt="p1"
-                height="550px"
+                height="580px"
               />
              <Carousel.Caption>
                   <h3>Pizza</h3>
@@ -20,10 +21,10 @@ export default class CarouselBox extends Component {
           </Carousel.Item >
           <Carousel.Item>
               <img
-                className="d-block w-100 carouselImg"
+                className="d-block w-100 "
                 src={ pizza2 }
                 alt="p2"
-                height="550px"
+                height="580px"
               />
              <Carousel.Caption>
                   <h3>More Pizza</h3>

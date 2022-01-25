@@ -51,4 +51,61 @@
     bottom: 20px;
 }
 
+.homeText{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.homeDiv{
+    margin: 30px;
+}
+
+.imgSetLeft{
+    height: 480px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.imgSetRight{
+    height: 480px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.homeImg{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.divSet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 20px;
+}
+.rowSet{
+    width: 100%;
+    margin-top: 220px;
+    margin-bottom: 200px;
+}
+
+.artSet{
+    width: 720px;
+    margin-bottom: 100px;
+}
+.artRow{
+    display: flex;
+    justify-content: center;
+}
+
+.textRow{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
 

@@ -78,7 +78,7 @@ export default class Menu extends Component {
                     <Card.Body>
                         <Card.Title>Вегатарианская</Card.Title>
                         <Card.Text className='cardText'>
-                        Шампиньоны, томаты, сладкий перец, красный лук, маслины, кубики брынзы, моцарелла, томатный соус, итальянские травы
+                        Шампиньоны, томаты, сладкий перец, красный лук, маслины, кубики брынзы, моцарелла
                         </Card.Text>
                         <footer>
                         <div className='cardDiv'>
@@ -104,7 +104,7 @@ export default class Menu extends Component {
                     <Card.Body>
                         <Card.Title>Ветчинная</Card.Title>
                         <Card.Text className='cardText'>
-                        Ветчина, моцарелла, соус альфредо
+                        Ветчина, моцарелла, соус альфредо, томатный соус, пряные травы, свежие томаты
                         </Card.Text>
                         <footer>
                         <div className='cardDiv'>
@@ -124,7 +124,7 @@ export default class Menu extends Component {
                     <Card.Body>
                         <Card.Title>Классическая</Card.Title>
                         <Card.Text className='cardText'>
-                        Аппетитная ветчина и кусочки свежих томатов, заправленные оригинальным соусом с пряными травами, запекаются под ароматным сыром моцарелла 
+                        Аппетитная ветчина, кусочки свежих томатов, томатный соус, пряные травы, сыр моцарелла 
                         </Card.Text>
                         <footer>
                         <div className='cardDiv'>
@@ -164,7 +164,7 @@ export default class Menu extends Component {
                     <Card.Body>
                         <Card.Title>4 сезона</Card.Title>
                         <Card.Text className='cardText'>
-                        Увеличенная порция моцареллы, ветчина, пикантная пепперони, кубики брынзы, томаты, шампиньоны, итальянские травы, томатный соус
+                        Увеличенная порция моцареллы, ветчина, пепперони, брынза, томаты, шампиньоны
                         </Card.Text>
                         <footer>
                         <div className='cardDiv'>
@@ -210,7 +210,7 @@ export default class Menu extends Component {
                     <Card.Body>
                         <Card.Title>Карбонара</Card.Title>
                         <Card.Text className='cardText'>
-                        Бекон, сыры чеддер и пармезан, моцарелла, томаты, красный лук, чеснок, соус альфредо, итальянские травы
+                        Бекон, сыры чеддер и пармезан, моцарелла, томаты, красный лук, соус альфредо
                         </Card.Text>
                         <footer>
                         <div className='cardDiv'>
@@ -230,7 +230,7 @@ export default class Menu extends Component {
                     <Card.Body>
                         <Card.Title>Аррива!</Card.Title>
                         <Card.Text className='cardText'>
-                        Цыпленок, острая чоризо, соус бургер, сладкий перец, красный лук, томаты, моцарелла, соус ранч, чеснок
+                        Цыпленок, острая чоризо, соус бургер, сладкий перец, красный лук, томаты, моцарелла
                         </Card.Text>
                         <footer>
                         <div className='cardDiv'>
@@ -279,14 +279,10 @@ export default class Menu extends Component {
                         0,5 л
                         </Card.Text>
                         <footer>
-                            <Row lg={2}>
-                        <Col>
+                        <div className='cardDiv'>
                             <h4>23₽</h4>
-                        </Col>
-                        <Col>
-                            <Button className='' variant="warning">Добавить в корзину</Button>
-                        </Col>
-                            </Row>
+                        </div>
+                            <Button className='buttEdit' variant="warning">Добавить в корзину</Button>
                         </footer>
                     </Card.Body>
                 </Card>
@@ -295,12 +291,12 @@ export default class Menu extends Component {
                 <Card className='m-3'>
                     <Card.Img
                      variant="top"
-                     src="https://dodopizza-a.akamaihd.net/static/Img/Products/b3e62e857ee54390a90ae320cab686a5_292x292.jpeg"
+                     src="https://dodopizza-a.akamaihd.net/static/Img/Products/4dde423fc98f4c01a3862917ef7bcb25_1875x1875.jpeg"
                     />
                     <Card.Body>
-                        <Card.Title>2 Coca-Cola по суперцене</Card.Title>
+                        <Card.Title>Coca-Cola Vanilla</Card.Title>
                         <Card.Text className='cardText'>
-                        Две классические Coca-Cola по 0,5 литров по выгодной цене, 0,5 л
+                        0,5 л
                         </Card.Text>
                         <footer>
                         <div className='cardDiv'>
@@ -360,7 +356,7 @@ export default class Menu extends Component {
                     <Card.Body>
                         <Card.Title>Американо</Card.Title>
                         <Card.Text className='cardText'>
-                        Горячий напиток на основе эспрессо #поворотныймомент, 0,4 л
+                         0,4 л
                         </Card.Text>
                         <footer>
                         <div className='cardDiv'>
@@ -380,7 +376,7 @@ export default class Menu extends Component {
                     <Card.Body>
                         <Card.Title>Кофе Капучино</Card.Title>
                         <Card.Text className='cardText'>
-                        Горячий напиток на основе эспрессо со вспененным молоком #поворотныймомент, 0,4 л
+                         0,4 л
                         </Card.Text>
                         <footer>
                         <div className='cardDiv'>
@@ -400,7 +396,7 @@ export default class Menu extends Component {
                     <Card.Body>
                         <Card.Title>Кофе Латте</Card.Title>
                         <Card.Text className='cardText'>
-                        Горячий напиток на основе эспрессо с увеличенной порцией молока #поворотныймомент, 0,4 л
+                         0,4 л
                         </Card.Text>
                         <footer>
                         <div className='cardDiv'>
@@ -418,9 +414,9 @@ export default class Menu extends Component {
                      src="https://dodopizza-a.akamaihd.net/static/Img/Products/17a0ea9b6f03429abf525d2d3fe6ab74_292x292.jpeg"
                     />
                     <Card.Body>
-                        <Card.Title>Кофе Ореховый латте</Card.Title>
+                        <Card.Title>Ореховый латте</Card.Title>
                         <Card.Text className='cardText'>
-                        Горячий напиток на основе эспрессо с увеличенной порцией молока и сиропом со вкусом фундука #поворотныймомент, 0,3 л
+                         0,3 л
                         </Card.Text>
                         <footer>
                         <div className='cardDiv'>
