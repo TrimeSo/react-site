@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import {Container, Row, Col, Table, Button, Nav} from 'react-bootstrap';
+import {Container, Row, Table, Button, Nav} from 'react-bootstrap';
 import { X } from 'react-bootstrap-icons';
 
-export default class Cart extends Component {
-    render() {
+
+export default function Cart() {
+
         return (
             <>
                 <Container>
@@ -50,4 +51,4 @@ export default class Cart extends Component {
             </>
         )
     }
-}
+

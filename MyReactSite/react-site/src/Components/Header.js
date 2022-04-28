@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import { Navbar, Nav } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
-import { Form, FormControl } from 'react-bootstrap';
-import logo from './free_pizza_logo-_fre.png';
+import logo from '../assets/free_pizza_logo-_frae.png';
 import './Header.css';
 import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 import { Twitter, Instagram } from 'react-bootstrap-icons';
@@ -14,11 +13,11 @@ import About from '../Pages/About';
 import Stocks from '../Pages/Stocks';
 import Cart from '../Pages/Cart';
  
-export default class header extends Component {
-    render() {
+export default function Header({navigateTo, PAGE_CART, PAGE_PRODUCTS, page}) {
+
         return (
             <>
-            <Navbar bg="dark" collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar bg="dark" collapseOnSelect expand="lg" variant="dark">
     <Container>
     <Navbar.Brand href="/">
       <img
@@ -69,4 +68,4 @@ export default class header extends Component {
 </>
         )
     }
-}
+

@@ -12,7 +12,7 @@ export default class CarouselBox extends Component {
                 className="d-block w-100 "
                 src={ pizza1 }
                 alt="p1"
-                height="580px"
+                height="770px"
               />
              <Carousel.Caption>
                   <h3>Pizza</h3>
@@ -24,7 +24,7 @@ export default class CarouselBox extends Component {
                 className="d-block w-100 "
                 src={ pizza2 }
                 alt="p2"
-                height="580px"
+                height="770px"
               />
              <Carousel.Caption>
                   <h3>More Pizza</h3>

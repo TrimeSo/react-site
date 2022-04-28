@@ -49,7 +49,7 @@ export default function Home() {
               <Row className='rowSet wow animate__fadeInUp animate__animated'>
                   <Col className='divSet'>
                       <h2>Вкусно</h2>
-                      <p>Мы используем только свежие продукты, благодаря чему пиццы становиться вкуснее и сочнее!</p>
+                      <p>Мы используем только свежие продукты, благодаря чему пиццы становиться вкуснее и сочнее. Вкус и качество - лучшее сочетание!</p>
                   </Col>
                   <Col className='divSet'>
                       <h2>Быстро</h2>
