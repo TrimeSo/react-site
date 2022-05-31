@@ -1,0 +1,173 @@
+{
+    "italianPizza" : [
+        {
+            "id" : 1,
+            "name" : "Пепперони",
+            "cost" : 320,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/b10dd95184eb49d39a739d75b8cbfeaf_292x292.jpeg",
+            "desc" : "Пикантная пепперони, увеличенная порция моцареллы, томатный соус",
+            "quantity" : 1
+        },
+        {
+            "id" : 2,
+            "name" : "Маргарита",
+            "cost" : 320,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/e8a8ded1f8154d11ab5065dc5208b187_292x292.jpeg",
+            "desc" : "Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
+            "quantity" : 1
+        },
+        {
+            "id" : 3,
+            "name" : "Грибная",
+            "cost" : 350,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/26fa2948b6c74113afb9d09a3262fc26_292x292.jpeg",
+            "desc" : "Шампиньоны, увеличенная порция моцареллы, томатный соус",
+            "quantity" : 1
+        },
+        {
+            "id" : 4,
+            "name" : "Вегатарианская",
+            "cost" : 320,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/4fd8c71e03d24ff6a4d54024bd6c6bec_292x292.jpeg",
+            "desc" : "Шампиньоны, томаты, сладкий перец, красный лук, маслины, кубики брынзы, моцарелла",
+            "quantity" : 1
+        }
+    ],
+    "americanPizza" : [
+        {
+            "id" : 5,
+            "name" : "Ветчинная",
+            "cost" : 320,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/679924dc-e4fd-45fd-aceb-be139f265425.jpg",
+            "desc" : "Ветчина, моцарелла, соус альфредо, томатный соус, пряные травы, свежие томаты",
+            "quantity" : 1
+        },
+        {
+            "id" : 6,
+            "name" : "Сливочная курочка",
+            "cost" : 350,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/dd4b719911d048e0b05c3e4219880e64_292x292.jpeg",
+            "desc" : "Аппетитное куриное филе, кусочки свежих томатов, томатный соус, пряные травы, сыр моцарелла",
+            "quantity" : 1
+        },
+        {
+            "id" : 7,
+            "name" : "4 сыра",
+            "cost" : 380,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/3c9d32eb9de14f8db32da72128c1e4e6_292x292.jpeg",
+            "desc" : "Сыр блю чиз, сыры чеддер и пармезан, моцарелла, соус альфредо",
+            "quantity" : 1
+        },
+        {
+            "id" : 8,
+            "name" : "4 сезона",
+            "cost" : 400,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/78e7d6286b3c4b4b9882e9422b8bdf01_292x292.jpeg",
+            "desc" : "Увеличенная порция моцареллы, ветчина, пепперони, брынза, томаты, шампиньоны",
+            "quantity" : 1
+        }
+    ],
+    "hitPizza" : [
+        {
+            "id" : 9,
+            "name" : "Песто",
+            "cost" : 380,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/9bd4c76d4c2548c090ac6ae5a1eabae6_292x292.jpeg",
+            "desc" : "Бекон, сыры чеддер и пармезан, моцарелла, томаты, красный лук, соус альфредо",
+            "quantity" : 1
+        },
+        {
+            "id" : 10,
+            "name" : "Карбонара",
+            "cost" : 380,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/7a0fac09c2264f8e8928f205c7acb5cf_292x292.jpeg",
+            "desc" : "Пикантная пепперони, увеличенная порция моцареллы, томатный соус",
+            "quantity" : 1
+        },
+        {
+            "id" : 11,
+            "name" : "Аррива",
+            "cost" : 400,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/a2407468a4094e498d258f65bffa4c46_292x292.jpeg",
+            "desc" : "Цыпленок, острая чоризо, соус бургер, сладкий перец, красный лук, томаты, моцарелла",
+            "quantity" : 1
+        },
+        {
+            "id" : 12,
+            "name" : "Пицца-Чизбургер",
+            "cost" : 400,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/40c9e7c8c01d4b29a816f2fd65d5bb60_292x292.jpeg",
+            "desc" : "Мясной соус болоньезе, соус бургер, соленые огурчики, томаты, красный лук, моцарелла",
+            "quantity" : 1
+        }
+    ],
+    "drinks" : [
+        {
+            "id" : 13,
+            "name" : "Coca-Cola-Zero",
+            "cost" : 80,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/646062734a454f6c9c8b8992846d478a_292x292.jpeg",
+            "desc" : "0,5 л",
+            "quantity" : 1
+        },
+        {
+            "id" : 14,
+            "name" : "Coca-Cola Vanilla",
+            "cost" : 80,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/4dde423fc98f4c01a3862917ef7bcb25_1875x1875.jpeg",
+            "desc" : "0,5 л",
+            "quantity" : 1
+        },
+        {
+            "id" : 14,
+            "name" : "Coca-Cola",
+            "cost" : 75,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/c99ec0985f37456a8084928dfe8ed379_292x292.jpeg",
+            "desc" : "0,5 л",
+            "quantity" : 1
+        },
+        {
+            "id" : 15,
+            "name" : "Coca-Cola-Lime",
+            "cost" : 75,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/6fadad5d935948848a10c3046e55f9d5_292x292.jpeg",
+            "desc" : "0,5 л",
+            "quantity" : 1
+        },
+        {
+            "id" : 16,
+            "name" : "Американо",
+            "cost" : 100,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/bc87655534d44acebcbbffab2ee0b822_292x292.jpeg",
+            "desc" : "0,4 л",
+            "quantity" : 1
+        },
+        {
+            "id" : 17,
+            "name" : "Капучино",
+            "cost" : 110,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/5972d1b78fec44b4a3fae17019c269cf_292x292.jpeg",
+            "desc" : "0,4 л",
+            "quantity" : 1
+        },
+        {
+            "id" : 18,
+            "name" : "Латте",
+            "cost" : 110,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/870e47d7c0c6409eb3208d1e1f39d7fc_292x292.jpeg",
+            "desc" : "0,4 л",
+            "quantity" : 1
+        },
+        {
+            "id" : 19,
+            "name" : "Ореховый латте",
+            "cost" : 150,
+            "image" : "https://dodopizza-a.akamaihd.net/static/Img/Products/17a0ea9b6f03429abf525d2d3fe6ab74_292x292.jpeg",
+            "desc" : "0,3 л",
+            "quantity" : 1
+        }
+    ],
+    "cart" : [
+        
+    ]
+}

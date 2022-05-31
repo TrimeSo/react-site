@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import CarouselBox from '../Components/CarouselBox';
-import Carousel from 'react-bootstrap/Carousel';
-import { Container, Col, Row, Image, Button} from 'react-bootstrap';
+import { Container, Col, Row, Image} from 'react-bootstrap';
 import Footer from '../Components/Footer';
 import './PageSettings.css';
 import 'animate.css';

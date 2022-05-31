@@ -103,6 +103,97 @@
     margin-bottom: 50px;
 }
 
+.authBox{
+    margin-top: 100px;
+    max-width: 500px;
+    min-height: 475px;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(42, 42, 44);
+    border-radius: 40px;
+}
+
+.authButton{
+    margin-left: 90px;
+    margin-top: 40px;
+    width: 300px;
+    border-radius: 20px;
+}
+.authButton2{
+    margin-left: 90px;
+    margin-top: 7px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.authText{
+    color: white;
+}
+
+.jobImg{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+}
+
+.jobList{
+    margin: 150px;
+}
+
+.erroeImg{
+    display: flex;
+    justify-content:center ;
+}
+
+.cartBut{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.but{
+    border-radius: 40px;
+    width: 150px;
+    height: 40px;
+}
+
+.map-container{
+    width: 100%;
+    height: 100hv;
+}
+
+.mapSet{
+    margin-left: 180px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.mapMarg{
+    margin-bottom: 40px;
+}
+
+.cartForm{
+    width: 400px;
+    margin-top: 17px;
+}
+.radioBut{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.total{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.hrSet{
+    width: 300px;
+}
+
+.orderAlert{
+    position: fixed;
+    top: 0%;
+}
+
+
 
 
 

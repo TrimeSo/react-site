@@ -36,12 +36,19 @@ a{
 
 .headButt{
 border-radius: 20px;
+margin: 2px;
 }
 
 .carouselImg{
     background-size: cover;
     height: auto;
 }
+
+.hColor{
+    color: white;
+}
+
+
 
 
 

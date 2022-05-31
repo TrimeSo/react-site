@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import logo from '../assets/free_pizza_logo-_frae.png';
 import './Header.css';
-import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
 import { Twitter, Instagram } from 'react-bootstrap-icons';
 
 import Home from '../Pages/Home';
@@ -12,6 +12,10 @@ import Menu from '../Pages/Menu';
 import About from '../Pages/About';
 import Stocks from '../Pages/Stocks';
 import Cart from '../Pages/Cart';
+import Auth from '../Pages/Auth';
+import Job from '../Pages/Job';
+import notFound from '../Pages/notFound';
+import Map from '../Pages/Map';
  
 export default function Header({navigateTo, PAGE_CART, PAGE_PRODUCTS, page}) {
 
@@ -48,7 +52,7 @@ export default function Header({navigateTo, PAGE_CART, PAGE_PRODUCTS, page}) {
     <Instagram color="white" size={25} />
     </Nav.Link>
 
-    <Button variant='warning' className='headButt' href="/cart">Корзина</Button>
+    <Button variant='warning' className='headButt' href="/auth">Авторизация</Button>
 
     </Nav>    
 
@@ -63,6 +67,11 @@ export default function Header({navigateTo, PAGE_CART, PAGE_PRODUCTS, page}) {
       <Route exact path = '/about' component={About} />
       <Route exact path = '/stocks' component={Stocks} />
       <Route exact path = '/cart' component={Cart} />
+      <Route exact path = '/auth' component={Auth} />
+      <Route exact path = '/job' component={Job} />
+      <Route exact path = '/notFound' component={notFound} />
+      <Route exact path= '/map' component={Map} />
+      <Redirect to='/notFound' />
     </Switch>
   </Router>
 </>

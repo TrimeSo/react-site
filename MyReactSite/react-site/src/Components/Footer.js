@@ -30,7 +30,7 @@ export default function Footer() {
                         <ul className="list-unstyled">
                             <li><a href="/about">Доставка и оплата</a></li>
                             <li><a onClick={handleShow} href="#">Обратная связь</a></li>
-                            <li><a href="/about">Наши кафе</a></li>
+                            <li><a href="/map">Наши кафе</a></li>
                             <li><a href="/about">Отзывы</a></li>
                         </ul>
                     </div>
@@ -40,7 +40,7 @@ export default function Footer() {
                             <li><a href="/about">Франшиза</a></li>
                             <li><a href="/about">Инвестиции</a></li>
                             <li><a href="/about">Поставщикам</a></li>
-                            <li><a href="/about">Сотрудничество</a></li>
+                            <li><a href="/job">Сотрудничество</a></li>
                         </ul>
                     </div>
                     <div className="col-md-4 col-sm-6 hFoot">
