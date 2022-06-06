@@ -1,5 +1,5 @@
 import React, { Component, useState } from 'react'
-import { Container, Card, Button, Row, Col, Nav, Table, Form, Alert} from 'react-bootstrap';
+import { Container, Card, Button, Row, Col, Nav, Table, Form, Image} from 'react-bootstrap';
 import Footer from '../Components/Footer';
 import { X } from 'react-bootstrap-icons';
 import { PlusSquare } from 'react-bootstrap-icons';
@@ -16,7 +16,7 @@ export default function Menu() {
     
     const [cart, setCart] = useState([]);
     const [page, setPage] = useState(PAGE_PRODUCTS)
-    
+    const [show, setShow] = useState(false);
 
         const addToCart = (product) => {
             setCart([...cart, { ...product }]);
@@ -63,7 +63,6 @@ export default function Menu() {
 
         let totalPrice = 0;
 
-
                 
         const renderCart = () => (
             <>
@@ -101,27 +100,55 @@ export default function Menu() {
                         </Table>
                     </Row>
                     <Row>
-                    
-                    <Form className='cartForm'>
+                    <Col>
+                    <Form action='' className='cartForm' method='POST'>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Промокод</Form.Label>
                             <Form.Control type="text" placeholder="Введите ваш промокод..." />
                         </Form.Group>
-
+                                <section>
                         <Form.Group className="mb-3 radioBut" controlId="formBasicCheckbox">
                             <Col>
-                            <Form.Check type="checkbox" label="Самовызов" />
+                            <Form.Check onChange={() => setShow()} type="radio" id='123' value='Самовывоз' name='rb1' label="Самовывоз" />
                             </Col>
                             <Col>
-                            <Form.Check type="checkbox" label="Доставка"  />
+                            <Form.Check onChange={() => setShow(!show)} className='order' type="radio" id='345' value='Доставка' name='rb1' label="Доставка"  />
                             </Col>
-                        </Form.Group>
+                            </Form.Group>
+                        {show && <div>  
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Label>Ваше имя</Form.Label>
+                    <Form.Control type="text" placeholder="Введите ваше имя..." />
+                    </Form.Group>
+                    <Form.Group>
+                    <Form.Label>Ваш город</Form.Label>
+                    <Form.Select>
+                    <option>Владивосток</option>
+                    <option>Москва</option>
+                    <option>Омск</option>
+                    <option>Хабаровск</option>
+                     </Form.Select>
+                    </Form.Group>
+                    <Form.Group>
+                    <Form.Label>Ваш адрес</Form.Label>
+                    <Form.Control type="text" placeholder="Введите ваш адресс..." />
+                    </Form.Group>
+                    <Form.Group>
+                    <Form.Label>Ваш телефон</Form.Label>
+                    <Form.Control type="text" placeholder="Введите ваш телефон..." />
+                    </Form.Group>
+                    </div>}
+                    </section>
                         </Form>
                         <div className='total'>
                         <h1>Сумма:{totalPrice}</h1>
                         <hr className='hrSet'/>
                     <Button className="cartButton" href='/' variant="warning" type="submit" >Оформить заказ</Button>
                         </div>
+                        </Col>
+                        <Col>
+                         <Image className='orderImage' src='https://img.favpng.com/20/16/0/pizza-italian-cuisine-chef-clip-art-png-favpng-JX4gPEG8tYduusgpra8x5b2EQ.jpg' />
+                        </Col>
                     </Row>
                 </Container>
             </Container>

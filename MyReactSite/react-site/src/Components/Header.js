@@ -16,6 +16,7 @@ import Auth from '../Pages/Auth';
 import Job from '../Pages/Job';
 import notFound from '../Pages/notFound';
 import Map from '../Pages/Map';
+import Feedback from './Feedback';
  
 export default function Header({navigateTo, PAGE_CART, PAGE_PRODUCTS, page}) {
 
@@ -71,6 +72,7 @@ export default function Header({navigateTo, PAGE_CART, PAGE_PRODUCTS, page}) {
       <Route exact path = '/job' component={Job} />
       <Route exact path = '/notFound' component={notFound} />
       <Route exact path= '/map' component={Map} />
+      <Route exact path= '/feed' component={Feedback} />
       <Redirect to='/notFound' />
     </Switch>
   </Router>
