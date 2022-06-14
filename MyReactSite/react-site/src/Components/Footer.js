@@ -29,7 +29,7 @@ export default function Footer() {
                     <div className="col-md-2 col-sm-6 hFoot">
                         <h4 className="text-white">Покупателям</h4>
                         <ul className="list-unstyled">
-                            <li><a href="/about">Доставка и оплата</a></li>
+                            <li><a href="/order">Доставка и оплата</a></li>
                             <li><a onClick={handleShow} href="#">Обратная связь</a></li>
                             <li><a href="/map">Наши кафе</a></li>
                             <li><a href="/about">Отзывы</a></li>

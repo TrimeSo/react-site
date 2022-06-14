@@ -188,10 +188,6 @@
     width: 300px;
 }
 
-.orderAlert{
-    position: fixed;
-    top: 0%;
-}
 
 .jobImg{
     width: 770px;
@@ -229,6 +225,29 @@
     height: 80px;
     margin-right: 90px;
 }
+
+.orderImg{
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 110px;
+    border-radius: 100px;
+}
+.orderRow{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.hrOrder{
+    width: 350px;
+    margin-left: 40px;
+}
+.xText{
+    font-weight: bolder;
+}
+.orderUl{
+    margin-top: 70px;
+}
+
 
 
 
